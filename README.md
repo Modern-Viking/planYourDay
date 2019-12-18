@@ -1,4 +1,4 @@
-# Quiz Time
+# Plan Your Day
 
 This application is a day planner
 
