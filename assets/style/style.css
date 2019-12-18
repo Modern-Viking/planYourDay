@@ -1,0 +1,25 @@
+body{
+    background:black;
+}
+#header{
+    background:black;
+    color:white;
+}
+
+.btn{
+    background: blue;
+    color: white;
+}
+
+.btn:hover{
+    background: rgb(45, 45, 214)
+}
+
+.input-group-text{
+    background: gray;
+    color: black;
+}
+
+.row{
+    padding: 20px;
+}
