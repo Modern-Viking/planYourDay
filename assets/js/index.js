@@ -4,3 +4,7 @@ var currentTime = moment().format('MMMM Do YYYY, h:mm:ss a');
 $("#currentTime").text(currentTime);
 //save user input from each text area to local storage
 });
+
+$(".btn").on("click", function(){
+    alert("save")
+});
