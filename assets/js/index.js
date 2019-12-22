@@ -31,7 +31,6 @@ $('.btn').click(function() {
     var text = $(this).parent().find("textarea").val();
     var hourDisplay = $(this).parent().find("textarea").attr("id");
     localStorage.setItem(hourDisplay, text);
-    $(this).parent().find("btn").fadeout(100).fadein(100);
 });
 
 function colorCode() {
