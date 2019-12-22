@@ -15,11 +15,21 @@ body{
     background: rgb(45, 45, 214)
 }
 
-.input-group-text{
+.hour{
     background: gray;
     color: black;
+    text-align:center;
 }
 
 .row{
     padding: 20px;
+}
+
+.past{
+    background:red;
+    color:white
+}
+
+.future{
+    
 }
