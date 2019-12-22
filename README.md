@@ -1,16 +1,16 @@
 # Plan Your Day
 
-This application is a day planner
+This application is a daily work planner.
 
 ### link to the deployed website
-- 
+- https://modern-viking.github.io/planYourDay/
 
 ## Contents
 
-![screenshot]()
+![screenshot](https://github.com/Modern-Viking/planYourDay/blob/master/assets/images/screenshot.png?raw=true)
 
 ## Instructions
-
+Insert your events or to do items in the input boxes and select the save icon to the side to save that hours input.
 
 ## Credits
 
@@ -19,6 +19,7 @@ A big shout out to those who made this website possible. I appreciate all of you
 * https://github.com/jrheap
 * https://github.com/Nidant
 * https://github.com/SpencerBangerter
+* https://github.com/MR-TYLER31
 
 ## License
 

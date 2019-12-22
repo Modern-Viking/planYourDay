@@ -1,4 +1,4 @@
-    //display the current date and time at the top of the page
+ //display the current date and time in the header
 var currentTime = moment().format('MMMM Do YYYY, h:mm:ss a');
 $("#currentTime").text(currentTime);
 
@@ -28,20 +28,25 @@ for (var i=0; i<times.length; i++) {
 };
 
 $('.btn').click(function() {
-    var text = $(this).parent().find("textarea").val();
-    var hourDisplay = $(this).parent().find("textarea").attr("id");
-    localStorage.setItem(hourDisplay, text);
+    var userInput = $(this).parent().find("textarea").val();
+    var hour = $(this).parent().find("textarea").attr("id");
+    localStorage.setItem(hour, userInput);
 });
 
 function colorCode() {
     currentHour = parseInt(moment().format("H"));
     var input = $(".input")
     var currentTask = $(input[i]);
-    for (var i = 0; i < input.length; i++) {
+    for (var j = 0; j < input.length; j++) {
         if (currentTask.attr('data-value') < currentHour) {
             currentTask.addClass('past');
         } else if (currentTask.attr('data-value') > currentHour){ 
             currentTask.addClass('future');
         } else { currentTask.addClass('present') }
     };
+    console.log(input);
+    console.log($(times[i]))
+    console.log(input.attr("data-value"))
 };
+console.log(currentHour);
+colorCode();
